@@ -183,9 +183,7 @@ public class MineSweeper {
             ;
 
             matrisPrinter(mayinsizTarlaArray);
-
-
-            // matrisPrinter(acilmisMap);
+//mayınsız tarlanın arayi sürekli yenilenicek güncellenmiş haliyle while dongusu !ismapChecked yanlış olana kadar
 
         } while (!isMapChecked(acilmisMap, "0"));
 
