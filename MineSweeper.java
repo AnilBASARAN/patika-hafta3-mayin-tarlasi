@@ -1,5 +1,6 @@
 import java.util.*;
 public class MineSweeper {
+
     // sweeper isimli oluşturduğumuz method seçilen koordinatın tüm komşu koordinatlarına giderek eğer yıldız ise sum = 0 olarak atanan değeri 1 arrtıracak
     // ve son olarak bu değeri dönecek.
     public static String sweeper(String[][] array, int row, int col) {
@@ -189,5 +190,11 @@ public class MineSweeper {
         // Tüm bombasız koordinatlar seçilirse, bomba koordinatları da haritada işaretlendiği için -1 olarak, gezilen noktalarda 1 olarak,
         // hiç 0 kalmadığında oyun biter ve Kazandınız yazısı döner
 System.out.println("Kazandınız");
+input.close();
+
+
+    }
+    public static void run(){
+        //les go
     }
 }
