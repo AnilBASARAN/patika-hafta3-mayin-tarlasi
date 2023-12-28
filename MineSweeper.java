@@ -118,7 +118,9 @@ public class MineSweeper {
             if (mayinliTarlaArray[bombGeneratorRow][bombGeneratorCol].equals(" - ")) {
                 mayinliTarlaArray[bombGeneratorRow][bombGeneratorCol] = " * ";
                 acilmisMap[bombGeneratorRow][bombGeneratorCol] = "-1";
-
+            //acilmisMap kısmında ise mayınları koyarken o koordinatları acilmismap arrayinde -1 e eşitliyoruz, böylece hem 0 dan farklı bir sayı oluyor
+                // aynı zamanda 1 den farklı olduğu için kullanıcının girdiği sayılardan da farklı oluyor, gerekirse ayırt etme şansımız olur eğer yeni
+                // özellikler eklemek istersek vs
                 mayinSayisi--;
             }
         }
