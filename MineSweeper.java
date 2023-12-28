@@ -28,7 +28,7 @@ public class MineSweeper {
 
     public static boolean isMapChecked(String[][] map, String value) {
 
-        // isMapChecked methodu kullanıcının girdiği koordinatı 0 dan 1 e çevirmekte ve aynı zamanda bomba koordinatlarını da 1 e çevirmek için kullandık
+        // isMapChecked methodu kullanıcının girdiği koordinatı 0 dan 1 e çevirmekte ve aynı zamanda bomba koordinatlarını da -1 e çevirmek için kullandık
         // böylece tüm haritada hiç 0 kalmadığında hala bomba patlamadıysa kullanıcı oyunu kazanacak
 
         int mapRow = map.length;
